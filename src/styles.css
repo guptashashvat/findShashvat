@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.maincontainer_wp {
+	min-height:470px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	overflow-x:auto;	
+}
