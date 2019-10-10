@@ -1,13 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
-.maincontainer_wp {
-	min-height:470px;
-	background-repeat:no-repeat;
-	background-position:center center;
-	background-size:cover;
-	overflow-x:auto;	
-}
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i';
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+ body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+}
+a:hover{
+	color: #425bb5;
+	text-decoration: none;
+}
+a:active, a:hover{
+	outline: 0;
+}
+nav, li, a{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #444;
+	font-size: 11px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	background-color: transparent;
+}
+*{
+	box-sizing: border-box;
+}
+nav, li{
+	display: inline-block;
+	margin: 10px;
+}
+.navbar-fixed-top{
+	top:0;
+	border-width: 0 0 1px;
+}
+nav, ul{
+	display: inline-block;
+	padding-left: 0;
+	list-style: none;
+	/* padding: 20px; */
+	margin-bottom: 0;
+	transition: all .5s;
+}
+header{
+	text-align: center;
+	transition: all 0.5s;
+	height: 65px;
+	display: block;
+}
