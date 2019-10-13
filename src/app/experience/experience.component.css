@@ -1,0 +1,8 @@
+.container{
+    background-color: #f3f3f3;
+    background-size: cover;
+    text-align: center;
+    min-height: 90vh;
+    height: auto;
+    padding-top: 1vh;
+}
