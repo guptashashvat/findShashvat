@@ -4,7 +4,7 @@
     background-position: 60% 70%;
     background-size: cover;
     text-align: center;
-    min-height: 90vh;
+    min-height: 89.6vh;
     height: auto;
 }
 .roundImgDiv{
@@ -18,6 +18,7 @@
     border-style: solid;
     border-width: 3px;
     right: 0;    
+    margin-top: 6%;
 }
 .roundImg{
     width: 100%;
@@ -38,9 +39,6 @@ h4{
     color: #425BB5;
     font-size: 19px;
     font-weight: bolder;
-    /* width: 18%;
-    margin-left: 42%; */
-    
 }
  h4::before{    
     position: relative;
@@ -50,49 +48,5 @@ h4{
     height: 2px;
     background: #425BB5;
     top: 12px;
-}
-@media only screen and (min-width: 992px){
-    h4::before{
-        left: 39%;
-    }
-    
-}
-@media only screen and (max-width: 1336px){
-    .roundImgDiv{
-        margin-top: 9%;
-    }    
-}
-@media only screen and (min-width: 1337px){
-    .roundImgDiv{
-        margin-top: 6%;
-    }    
-}
-@media only screen and (max-width: 991px){
-    h4::before{
-        left: 35%;
-    }
-    .roundImgDiv{
-        margin-top: 16%;
-    }
-}
-@media only screen and (max-width: 650px){
-    h4::before{
-        left: 30%;
-    }
-}
-@media only screen and (max-width: 500px){
-    h4::before{
-        left: 27%;
-    }
-}
-
-@media only screen and (max-width: 450px){
-    h4::before{
-        left: 17%;
-    }
-}
-@media only screen and (max-width: 350px){
-    h4::before{
-        left: 12%;
-    }
+    left: calc(50% - 117px);
 }

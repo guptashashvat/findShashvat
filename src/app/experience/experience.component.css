@@ -1,8 +1,43 @@
 .container{
     background-color: #f3f3f3;
     background-size: cover;
-    text-align: center;
-    min-height: 90vh;
+    min-height: 89.6vh;
     height: auto;
-    padding-top: 1vh;
+    padding: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.size-50{
+    font-size: 50px;
+    line-height: 50px;
+}
+h1{
+    font-family: 'Playfair Display', serif;    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: inherit;
+}
+.h-50{
+    height: 50px;
+}
+.timeline {
+    padding-left: 0;
+    list-style: none;
+    position: relative;
+}
+.timeline:before {
+    background-color: black;
+    content: '';
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 2px;
+    height: 100%;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
 }

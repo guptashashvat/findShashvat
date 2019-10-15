@@ -1,5 +1,6 @@
 import { Component, HostListener, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common'; 
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,9 @@ import { DOCUMENT } from '@angular/common';
 export class AppComponent {
   constructor(@Inject(DOCUMENT) document) {
     
+ }
+ ngOnInit(){
+   AOS.init();
  }
   @HostListener('window:scroll', ['$event']) 
     scrollHandler(event) {
