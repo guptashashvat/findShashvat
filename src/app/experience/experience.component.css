@@ -3,8 +3,9 @@
     background-size: cover;
     min-height: 89.6vh;
     height: auto;
-    padding: 80px;
+    padding: 100px;
     padding-right: 150px;
+    padding-top: 50px;
     margin-right: auto;
     margin-left: auto;
 }
