@@ -25,10 +25,10 @@
     height: auto;
 }
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    line-height: 70px;
-    color: #999;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 39px;
+    line-height: 57px;
+    color: #E31B6D;
 }
 
 h4{    

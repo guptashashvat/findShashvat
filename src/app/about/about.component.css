@@ -11,10 +11,61 @@
     font-size: 50px;
     line-height: 50px;
 }
+.h-25{
+    height: 25px;
+}
 h1{
     font-family: 'Playfair Display', serif !important;    
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: 500;
     color: inherit;
+}
+.roundImgDiv{
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-color: #425BB5;
+    border-style: solid;
+    border-width: 3px;
+    right: 0;    
+    margin-top: 6%;
+}
+.roundImg{
+    width: 100%;
+    height: auto;
+}
+.aboutActivities{
+    margin-top: 50px;
+    padding-top: 24px;
+    border-top: 1px ridge lightgray;
+}
+h4{    
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    color: #425BB5;
+    font-size: 19px;
+    font-weight: bolder;
+    left: 36px;
+}
+ h4::before{    
+    position: relative;
+    width: 25px;
+    content: "";
+    display: block;
+    height: 2px;
+    background: #425BB5;
+    top: 12px;
+    left: -36px;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.7em;
 }

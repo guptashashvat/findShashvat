@@ -11,7 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { MatDialogModule, MatButtonModule } from '@angular/material';
+import { MaterialModule } from './material/material.module';
 import { ProjectDetailDialogComponent } from './project-detail-dialog/project-detail-dialog.component';
 
 @NgModule({
@@ -31,8 +31,7 @@ import { ProjectDetailDialogComponent } from './project-detail-dialog/project-de
     BrowserAnimationsModule,
     AnimateOnScrollModule.forRoot(),
     FlexLayoutModule,
-    MatDialogModule,
-    MatButtonModule
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
