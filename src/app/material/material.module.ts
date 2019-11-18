@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatDialogModule, MatButtonModule } from '@angular/material';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 
 
@@ -9,10 +10,12 @@ import { MatDialogModule, MatButtonModule } from '@angular/material';
   imports: [
     CommonModule,
     MatDialogModule,
-    MatButtonModule
+    MatButtonModule,
+    MatProgressBarModule
   ],
   exports: [
     MatDialogModule,
-    MatButtonModule]
+    MatButtonModule,
+    MatProgressBarModule]
 })
 export class MaterialModule { }
