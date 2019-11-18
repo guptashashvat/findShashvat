@@ -118,7 +118,8 @@ p {
     margin: 0 0 10px;
 }
 .expContent{
-    line-height: 1.8em;
+    line-height: 2em;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 .timeline-event-subthumbnail {
     color: white;
