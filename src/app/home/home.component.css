@@ -1,8 +1,9 @@
 .container{
-    background-image: url(../../assets/images/bg.jpg);
+    /* background-image: url(../../assets/images/bg.jpg);
     background-repeat: no-repeat;
     background-position: 60% 70%;
-    background-size: cover;
+    background-size: cover; */
+    background-color: white;
     text-align: center;
     min-height: 89.6vh;
     height: auto;
@@ -14,7 +15,7 @@
     width: 200px;
     height: 200px;
     overflow: hidden;
-    border-color: white;
+    border-color: #425BB5;
     border-style: solid;
     border-width: 3px;
     right: 0;    
@@ -28,7 +29,8 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 39px;
     line-height: 57px;
-    color: #E31B6D;
+    color: #673ab7;
+    /* #E31B6D */
 }
 
 h4{    
