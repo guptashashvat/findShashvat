@@ -29,9 +29,12 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 39px;
     line-height: 57px;
-    color: #673ab7;
-    /* #E31B6D */
+    color: #333;
+    /* #E31B6D #673ab7*/
 }
+/* h3{
+    color: white;   
+} */
 
 h4{    
     font-family: 'Lato', sans-serif;
