@@ -14,9 +14,9 @@ export class ProjectsComponent implements OnInit {
   ngOnInit() {
   }
 
-  openProjectDialog(){
+  openProjectDialog(projectName: string){
     this.dialog.open(ProjectDetailDialogComponent,
-    {width: '250vw', height: '100vh'});
+    {width: '250vw', height: '100vh', data: {projectName: projectName}});
   }
 
 }
