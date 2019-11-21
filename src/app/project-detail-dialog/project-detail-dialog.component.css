@@ -3,3 +3,15 @@ h2{
     font-size: 36px;
     line-height: 45px;
 }
+p, ol, ul {
+    text-align: justify;
+    margin: 0 0 10px;
+    line-height: 2em;
+}
+.container{
+    padding: 60px;
+    /* padding-right: 150px;*/
+    padding-top: 20px; 
+    margin-right: auto;
+    margin-left: auto;
+}
