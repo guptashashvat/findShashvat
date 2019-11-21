@@ -67,5 +67,6 @@ p {
     font-family: 'Lato', sans-serif;
     text-align: justify;
     font-size: 15px;
-    line-height: 1.7em;
+    margin: 0 0 10px;
+    line-height: 2em;
 }
