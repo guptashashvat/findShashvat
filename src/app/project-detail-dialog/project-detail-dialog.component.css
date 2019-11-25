@@ -9,9 +9,8 @@ p, ol, ul {
     line-height: 2em;
 }
 .container{
-    padding: 60px;
-    /* padding-right: 150px;*/
-    padding-top: 20px; 
+    padding: 0px 60px;
+    /* padding-top: 20px;  */
     margin-right: auto;
     margin-left: auto;
 }
