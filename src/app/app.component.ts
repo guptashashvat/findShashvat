@@ -16,11 +16,11 @@ export class AppComponent {
  }
   @HostListener('window:scroll', ['$event']) 
     scrollHandler(event) {
-      // if (window.pageYOffset > document.getElementById('test').offsetTop) {
-      //   document.getElementById('test').classList.add("sticky");
-      // } else {
-      //   document.getElementById('test').classList.remove("sticky");
-      // }
+      if (window.pageYOffset > document.getElementById('menuBar').offsetTop) {
+      document.getElementById('menuBar').classList.add("sticky");
+      } else {
+      document.getElementById('menuBar').classList.remove("sticky");
+      }
       
     }
 }

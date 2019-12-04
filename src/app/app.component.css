@@ -3,6 +3,8 @@ nav, li{
 	margin: 10px;
 }
 .navbar-fixed-top{
+	position: fixed;
+	overflow: hidden !important;
 	top:0;
 	border-width: 0 0 1px;
 }
@@ -29,7 +31,18 @@ header{
 .content{
 	padding-top: 65px;
 }
-
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  .sticky + .content {
+	padding-top: 102px;
+  }
+#menuBar{
+	z-index:100;
+}
 #header{
 	display: inline-block;
 	top: 0;
