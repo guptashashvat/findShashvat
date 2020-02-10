@@ -27,24 +27,24 @@
     <div fxFlex fxLayout="column">
         <div fxFlex="15"></div>
         <div fxFlex="85" data-aos="fade-right" data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0">
-            <form (ngSubmit)="processForm()" class="contact-bg" id="contact-form" name="contact-form">
-                <input type="text" name="name" class="form-control" placeholder="Your Name*" [(ngModel)]="name"
+            <form class="contact-bg" id="contact-form" name="contact-form">
+                <input type="text" name="name" class="form-control" placeholder="Your Name*" [(ngModel)]="contact.name"
                 required minlength="3" #nameInput="ngModel"/>
                 <span *ngIf="nameInput.invalid && nameInput.touched">
                     <p style="color: red !important"> Name is required and should contain minimum 3 characters.</p>
                 </span>
-                <input type="email" name="email" class="form-control" placeholder="Your E-mail*" [ngModel]="contact?.email" (ngModel)="contact.email"
+                <input type="email" name="email" class="form-control" placeholder="Your E-mail*" [(ngModel)]="contact.email"
                 required email #emailInput="ngModel"/>
                 <span *ngIf="emailInput.invalid && emailInput.touched">
                     <p style="color: red !important">Email is required and should be valid.</p>
                 </span>
-                <input type="text" name="phone" class="form-control" placeholder="Phone Number" [ngModel]="contact?.phone" (ngModel)="contact.phone"/>
-                <textarea name="message" class="form-control" placeholder="Your Message*" style="height:120px"  [ngModel]="contact?.message" (ngModel)="contact.message"
+                <input type="text" name="phone" class="form-control" placeholder="Phone Number" [(ngModel)]="contact.phone"/>
+                <textarea name="message" class="form-control" placeholder="Your Message*" style="height:120px"  [(ngModel)]="contact.message"
                 required #messageInput="ngModel"></textarea>
                 <span *ngIf="messageInput.invalid && messageInput.touched">
                     <p style="color: red !important">Message is required.</p>
                 </span>
-                <button  id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                <button (click)="processForm()" id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
                 <div id="success">
                     <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
                 </div>

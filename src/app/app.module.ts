@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material/material.module';
 import { ProjectDetailDialogComponent } from './project-detail-dialog/project-detail-dialog.component';
 
@@ -32,6 +33,7 @@ import { ProjectDetailDialogComponent } from './project-detail-dialog/project-de
     BrowserAnimationsModule,
     AnimateOnScrollModule.forRoot(),
     FlexLayoutModule,
+    HttpClientModule,
     FormsModule,
     MaterialModule
   ],
