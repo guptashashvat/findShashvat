@@ -1,0 +1,12 @@
+[{"skillSet":[
+    {"skill":"AngularJS", "value": 80},
+    {"skill":"Angular", "value": 40},
+    {"skill":"Core JAVA", "value": 75},
+    {"skill":"JavaScript", "value": 70},
+    {"skill":"SQL", "value": 50},
+    {"skill":"RESTful APIs", "value": 65},
+    {"skill":"HTML", "value": 90},
+    {"skill":"CSS", "value": 85},
+    {"skill":"JSPs & Servlets", "value": 45}]
+}
+]
