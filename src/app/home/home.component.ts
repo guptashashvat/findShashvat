@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import homeData from '../../assets/data.json';
 
 @Component({
   selector: 'app-home',
@@ -6,13 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  public skillSet:{skill:string,value:number}[]=homeData[0].skillSet;
+   
   constructor() {
-    
+    console.log(this.skillSet[0].skill);
    }
-   title = 'ShashvatArena';
-
   ngOnInit() {
   }
-
+  
 }

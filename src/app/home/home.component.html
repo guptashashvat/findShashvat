@@ -1,4 +1,3 @@
-
 <div class="container">
     <br fxShow.gt-sm="true" fxShow="false">
     <br fxShow.gt-sm="true" fxShow="false">
@@ -15,123 +14,18 @@
     <br fxShow.gt-sm="true" fxShow="false">
     <br fxShow.gt-sm="true" fxShow="false">
     <br fxShow.gt-sm="true" fxShow="false">
-      <div fxLayout.gt-sm="row" fxLayout="column">
-      <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">AngularJS</h3></div>
+    <div fxLayout.gt-sm="row" fxLayout="column" *ngFor="let x of skillSet">
+      <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">{{x.skill}}</h3></div>
       <div fxFlex.gt-sm="65" fxFlex="100">
-      <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
-      <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
-      <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
-      <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
-      <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+      <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
+      <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
+      <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
+      <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
+      <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
     </div>
       <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-        <h3 style="margin-top: -3.5px; margin-left:-30%">80%</h3></div>
+        <h3 style="margin-top: -3.5px; margin-left:-30%">{{x.value}}%</h3></div>
     </div>
-    <div fxLayout.gt-sm="row" fxLayout="column">
-        <br fxShow.gt-sm="false" fxShow="true">
-        <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">Angular</h3></div>
-        <div fxFlex.gt-sm="65" fxFlex="100">
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-        <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-      </div>
-        <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-          <h3 style="margin-top: -3.5px; margin-left:-30%">40%</h3></div>
-      </div>
-    <div fxLayout.gt-sm="row" fxLayout="column">
-      <br fxShow.gt-sm="false" fxShow="true">
-        <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">Core JAVA</h3></div>
-        <div fxFlex.gt-sm="65" fxFlex="100">
-        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-      </div>
-        <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-          <h3 style="margin-top: -3.5px; margin-left:-30%">75%</h3></div>
-      </div>
-      <div fxLayout.gt-sm="row" fxLayout="column">
-          <br fxShow.gt-sm="false" fxShow="true">
-            <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">JSPs & Servlets</h3></div>
-            <div fxFlex.gt-sm="65" fxFlex="100">
-            <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-            <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-            <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-            <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-            <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-          </div>
-            <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-              <h3 style="margin-top: -3.5px; margin-left:-30%">50%</h3></div>
-          </div>
-          <div fxLayout.gt-sm="row" fxLayout="column">
-              <br fxShow.gt-sm="false" fxShow="true">
-                <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">SQL</h3></div>
-                <div fxFlex.gt-sm="65" fxFlex="100">
-                <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-                <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-                <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-                <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-                <mat-progress-bar mode="determinate" value="50"></mat-progress-bar>
-              </div>
-                <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-                  <h3 style="margin-top: -3.5px; margin-left:-30%">50%</h3></div>
-            </div>
-            <div fxLayout.gt-sm="row" fxLayout="column">
-                  <br fxShow.gt-sm="false" fxShow="true">
-                    <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">HTML</h3></div>
-                    <div fxFlex.gt-sm="65" fxFlex="100">
-                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-                    <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-                  </div>
-                    <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-                      <h3 style="margin-top: -3.5px; margin-left:-30%">90%</h3></div>
-                </div>
-                <div fxLayout.gt-sm="row" fxLayout="column">
-                    <br fxShow.gt-sm="false" fxShow="true">
-                      <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">CSS</h3></div>
-                      <div fxFlex.gt-sm="65" fxFlex="100">
-                      <mat-progress-bar mode="determinate" value="85"></mat-progress-bar>
-                      <mat-progress-bar mode="determinate" value="85"></mat-progress-bar>
-                      <mat-progress-bar mode="determinate" value="85"></mat-progress-bar>
-                      <mat-progress-bar mode="determinate" value="85"></mat-progress-bar>
-                      <mat-progress-bar mode="determinate" value="85"></mat-progress-bar>
-                    </div>
-                      <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-                        <h3 style="margin-top: -3.5px; margin-left:-30%">85%</h3></div>
-                  </div>
-                  <div fxLayout.gt-sm="row" fxLayout="column">
-                      <br fxShow.gt-sm="false" fxShow="true">
-                        <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">JavaScript</h3></div>
-                        <div fxFlex.gt-sm="65" fxFlex="100">
-                        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-                        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-                        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-                        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-                        <mat-progress-bar mode="determinate" value="75"></mat-progress-bar>
-                      </div>
-                        <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-                          <h3 style="margin-top: -3.5px; margin-left:-30%">75%</h3></div>
-                    </div>
-                    <div fxLayout.gt-sm="row" fxLayout="column">
-                        <br fxShow.gt-sm="false" fxShow="true">
-                          <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">RESTful APIs</h3></div>
-                          <div fxFlex.gt-sm="65" fxFlex="100">
-                          <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
-                          <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
-                          <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
-                          <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
-                          <mat-progress-bar mode="determinate" value="60"></mat-progress-bar>
-                        </div>
-                          <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
-                            <h3 style="margin-top: -3.5px; margin-left:-30%">60%</h3></div>
-                            <br fxShow.gt-sm="false" fxShow="true">
-                      </div>
   </div> 
   <div fxFlex="5"></div> 
 </div>

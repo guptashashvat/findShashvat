@@ -1,8 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Contact } from '../contactDetails';
 import { EmailClientService } from '../email-client.service';
-import '../../assets/smtpJS.js';
-declare let Email: any;
+import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -14,20 +13,17 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
   }
+  public sendEmail(e: Event) {
+    e.preventDefault();
+    emailjs.send('gmail', 'template_u5Bkh4Jh', e.target as HTMLFormElement, 'user_THRxDqGSiFitKzwcdJm0b')
+      .then((result: EmailJSResponseStatus) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
   processForm(){
-   Email.send({
-      Host : "smtp.gmail.com",
-      Username : "shashvatgupta39@gmail.com",
-      Password : "Dhinkachika39#",
-      To : 'shashvatgupta39@gmail.com',
-      From : "shashvatgupta39@gmail.com",
-      Subject : "This is the subject",
-      Body : "And this is the body"
-  }).then(
-    message => alert(message+" Test"));
-    //this.emailService.sendMail(this.contact).subscribe(res=> console.log("res: "+res));
     const allInfo=`My name is ${this.contact.name}. My email is ${this.contact.email}. My phone number is ${this.contact.phone}. My message is ${this.contact.message}`;
     alert(allInfo);
   }
-
 }

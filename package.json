@@ -28,6 +28,7 @@
     "body-parser": "^1.19.0",
     "classlist.js": "^1.1.20150312",
     "cors": "^2.8.5",
+    "emailjs-com": "^2.4.1",
     "express": "^4.17.1",
     "hammerjs": "^2.0.8",
     "ng2-animate-on-scroll": "^1.2.0",
