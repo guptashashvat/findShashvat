@@ -1,7 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Contact } from '../contactDetails';
-import { EmailClientService } from '../email-client.service';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
+import {MatSnackBar} from '@angular/material/snack-bar';
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
@@ -9,21 +10,32 @@ import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 })
 export class ContactComponent implements OnInit {
   contact: Contact=new Contact();
-  constructor(private emailService: EmailClientService) { }; 
+  show: boolean=false;
+  
+  constructor(private _snackBar: MatSnackBar) { }; 
 
   ngOnInit() {
   }
-  public sendEmail(e: Event) {
+  public sendEmail(e: Event, formData: any) {
     e.preventDefault();
-    emailjs.send('gmail', 'template_u5Bkh4Jh', e.target as HTMLFormElement, 'user_THRxDqGSiFitKzwcdJm0b')
+    this.show=true;    
+    emailjs.sendForm('gmail', 'template_u5Bkh4Jh', e.target as HTMLFormElement, 'user_THRxDqGSiFitKzwcdJm0b')
       .then((result: EmailJSResponseStatus) => {
-        console.log(result.text);
+        this.show=false;
+        this.contact=new Contact();
+        setTimeout(() => formData.form.controls['reply_to'].setErrors(null) );
+        setTimeout(() => formData.form.controls['from_name'].setErrors(null) );
+        setTimeout(() => formData.form.controls['message_html'].setErrors(null) );
+        this._snackBar.open("Your message has been sent to Shashvat. Thank a lot for showing interest.", "Ok", {
+          duration: 6000,
+        });
+        
       }, (error) => {
-        console.log(error.text);
+        this.show=false;
+        this._snackBar.open("Oops! Couldn't send your message due to some error. Please retry after sometime. Or alternatively you can contact Shashvat through email or phone number provided on this page. Thanks.", "Ok", {
+          duration: 15000,
+        });
       });
-  }
-  processForm(){
-    const allInfo=`My name is ${this.contact.name}. My email is ${this.contact.email}. My phone number is ${this.contact.phone}. My message is ${this.contact.message}`;
-    alert(allInfo);
-  }
+  } 
+  
 }

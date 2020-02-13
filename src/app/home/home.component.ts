@@ -10,9 +10,13 @@ export class HomeComponent implements OnInit {
   public skillSet:{skill:string,value:number}[]=homeData[0].skillSet;
    
   constructor() {
-    console.log(this.skillSet[0].skill);
+    
    }
   ngOnInit() {
   }
+  templateParams = {
+    name: 'James',
+    notes: 'Check this out!'
+};  
   
 }
