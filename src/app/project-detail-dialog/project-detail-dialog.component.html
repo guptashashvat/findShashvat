@@ -1,45 +1,18 @@
-<div class="container"><h2 mat-dialog-title>Customer Loan Application<br> Portal & Loan Monitoring</h2>
-    <br/>
+<div class="container"><h2 mat-dialog-title><span *ngFor="let name of projectData.name">{{name}}<br></span></h2>
 <mat-dialog-content>
     <h3><u>Abstract</u></h3>
-    <p>
-    This Business Loan Portal is for a US centric bank to digitiz the business loan application process and seamlessly pass the same to the 
-    business loan origination system for streamlined processing.
-    </p>
-    <p>
-    The key objective is to automate Business Loan Origination, Processing, and capture leads via the Business Loan 
-    Portal while accommodating all of Bank’s product offerings listed and agreed in  scope of work. The solution enables 
-    faster application time. This will allow the Bank to capture more business loan leads and increase market-share from 
-    competitors’ business. Some key features of the solution are:
+    <p *ngFor="let epitome of projectData.abstract.epitome">
+    {{epitome}}
     </p>
     <ul>
-        <li>User-friendly business loan online application to optimize lead capture.</li>
-        <li>Improved efficiency in data capture and reduction in turnaround-time (TAT). For instance, the system will 
-            capture details from all borrowers and provide contact details to Bank for follow up.</li>
-        <li>A secure system that protects the confidentiality, availability and integrity of business member information 
-            throughout the process, while stored and in transit.</li>
-        <li>Easy to use graphical user interface (GUI) and dynamic application fields based on business loan product</li>
+        <li *ngFor="let bullet of projectData.abstract.bullets">{{bullet}}</li>
     </ul>
     <h3><u>Technologies/Tools Used</u></h3>
-    <p>
-    The portal is a Single Page Application(SPA) based on MVC(Model View Controller) architecture.
-    </p>
-    <p>
-    The list of Technologies/tools/methodologies used is:
+    <p *ngFor="let epitome of projectData.technologies.epitome">
+        {{epitome}}
     </p>
     <ul>
-        <li>AngularJS</li>
-        <li>jQuery</li>
-        <li>JAVA</li>
-        <li>Servlets</li>
-        <li>Java Socket Programming</li>
-        <li>Multi-threading</li>
-        <li>API integrations</li>
-        <li>SQL Server (DB procedures, scripts, functions, triggers)</li>
-        <li>SVN</li>
-        <li>JBoss</li>
-        <li>Eclipse IDE</li>
-        <li>Sonar Lint</li> 
+        <li *ngFor="let value of projectData.technologies.list">{{value}}</li>
     </ul>
 </mat-dialog-content>
 </div>
