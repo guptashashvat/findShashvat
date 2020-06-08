@@ -12,7 +12,12 @@
       {"skill":"JSPs & Servlets", "value": 45}]},
   "experiencePage":
     {"epitome":"My professional work experience includes front-end development (AngularJS, Angular), back-end development (Java 8- Servlets, JSPs) and Database (Microsoft SQL Server). In various capacities in software development for BPM (Business process management) for the clients of Newgen Softwares Tech. Ltd., working with different projects, I have acquired skills in numerous phases of software development process including responsive UIs, consuming SOAP APIs, designing REST API, client side and server side coding as well as Database queries.",
-     "experienceList":[{"duration":"July 2017 - Present",
+     "experienceList":[{"duration":"April 2020 - Present",
+      "company":"Dassault Systèmes",
+      "place":"Pune, India",
+      "subDurationList":[]
+           },
+           {"duration":"July 2017 - March 2020",
                        "company":"Newgen software Technologies Ltd",
                        "place":"Noida, India",
                        "subDurationList":[{"subDuration":"July 2019-Present : (Web Application Development)",
@@ -46,7 +51,7 @@
   "projectPage":
     {"heading":"My Projects",
       "projectList":[{"projectCode":"UB",
-                      "imagePath":"./assets/images/projects/01.jpg",
+                      "imagePath":"./assets/images/projects/Credit-Monitoring-in-Banks.jpg",
                       "projectName":"Bank Portal to digitize Business Loan Application",
                       "category":"Business Process Management"}]},
   "projectDialog":
