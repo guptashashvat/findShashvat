@@ -7,8 +7,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 
 
-const routes: Routes = [{path:'', redirectTo:'/home', pathMatch:'full'},
-{path:'home', component: HomeComponent},
+const routes: Routes = [{path:'', component: HomeComponent},
 {path: 'about', component: AboutComponent},
 {path: 'experience', component: ExperienceComponent},
 {path: 'projects', component: ProjectsComponent},

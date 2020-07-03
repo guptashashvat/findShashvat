@@ -9,7 +9,7 @@
 }
 .portfolio_item {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: block;
     margin-bottom: 30px;
 }
@@ -47,8 +47,10 @@ p {
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
+    height: 250px;
+    width: 250px;
     background-color: #425BB5;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
@@ -119,8 +121,10 @@ p {
 }
 .img-responsive{    
     display: block;
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: auto; */
+    width: 250px;
+    height: 250px;
 }
 img{
     vertical-align: middle;

@@ -16,8 +16,12 @@ export class ContactComponent implements OnInit {
 
   ngOnInit() {
   }
-  public sendEmail(e: Event, formData: any) {
+  public sendEmail(e: Event, isValid: boolean, formData: any) {
     e.preventDefault();
+    if(!isValid){
+      alert("Please make sure you've filled the form with valid values. Thanks!")
+      return;
+    }
     this.show=true;    
     emailjs.sendForm('gmail', 'template_u5Bkh4Jh', e.target as HTMLFormElement, 'user_THRxDqGSiFitKzwcdJm0b')
       .then((result: EmailJSResponseStatus) => {

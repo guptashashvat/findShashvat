@@ -9,19 +9,15 @@
   data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0"><h4>Shashvat Gupta</h4></div>
   <h1 data-aos="fade-right" data-aos-easing="ease" data-aos-duration="900" data-aos-delay="0">I'm a full-stack<br/> Developer.</h1>
   </div>
-  <div fxFlex data-aos="zoom-in" data-aos-easing="ease" data-aos-duration="900" data-aos-delay="0">
-    <br fxShow.gt-sm="true" fxShow="false">
-    <br fxShow.gt-sm="true" fxShow="false">
-    <br fxShow.gt-sm="true" fxShow="false">
-    <br fxShow.gt-sm="true" fxShow="false">
-    <div fxLayout.gt-sm="row" fxLayout="column" *ngFor="let x of skillSet">
+  <div fxFlex fxLayout="column" fxLayoutGap.gt-sm="0px" data-aos="zoom-in" data-aos-easing="ease" data-aos-duration="900" fxLayoutGap="12px" data-aos-delay="0">
+    <br fxShow.gt-sm="false" fxShow="true">
+    <div fxLayout.gt-sm="row" fxLayout="column" fxLayoutGap.gt-sm="10px" fxLayoutGap="-12px" *ngFor="let x of skillSet">
       <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">{{x.skill}}</h3></div>
       <div fxFlex.gt-sm="65" fxFlex="100">
       <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
       <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
       <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
-      <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
-      <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
+      <mat-progress-bar mode="determinate" value="{{x.value}}" fxShow.gt-sm="true" fxShow="false"></mat-progress-bar>      
     </div>
       <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
         <h3 style="margin-top: -3.5px; margin-left:-30%">{{x.value}}%</h3></div>

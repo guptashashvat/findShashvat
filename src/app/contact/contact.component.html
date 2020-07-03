@@ -1,11 +1,9 @@
-    <div class="container" fxLayout="row">
+    <div class="container" fxLayout.gt-xs="row" fxLayout="column" fxLayoutGap="10px">
         <div fxFlex="40">
             <div data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0">
             <h1 class="size-50">Contact  Me</h1>
             <div class="h-25"></div>
         </div>
-        <br>
-        <br>
         <div data-aos="fade-left" data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0">
 
             <h3>Mobile Number</h3>
@@ -19,31 +17,33 @@
                 <li><a href="https://www.twitter.com/wastefulBaniya" target="_blank"><i class="iconify" data-icon="ion-social-twitter"></i></a></li>
                 <li><a href="https://www.instagram.com/shashvat27" target="_blank"><i class="iconify" data-icon="ion-social-instagram"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/shashvat-gupta-" target="_blank"><i class="iconify" data-icon="ion-social-linkedin"></i></a></li>
+                <li><a href="https://stackoverflow.com/users/10556089/shashvat-gupta?tab=profile" target="_blank"><img alt="Stackoverflow" style="width: 24px; height: 24px;" src="./assets/images/icons/icons8-stack-overflow-26.png"></a></li>
+                <li><a href="https://github.com/guptashashvat" target="_blank"><img alt="Github" style="width: 24px; height: 24px;" src="./assets/images/icons/GitHub-Mark-32px.png"></a></li>
             </ul>
             <div class="clearfix"></div>
             <div class="h-25"></div>
         </div>
     </div>
-    <div fxFlex fxLayout="column">
+    <div fxFlex="60" fxLayout="column">
         <div fxFlex="15"></div>
         <div fxFlex="85" data-aos="fade-right" data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0">
-    <form class="contact-bg" id="contact-form" name="contact-form" (submit)="sendEmail($event, contactForm)" #contactForm="ngForm">
-                <input type="text" name="from_name" class="form-control" placeholder="Your Name*" [(ngModel)]="contact.name"
+    <form class="contact-bg" id="contact-form" name="contact-form" (submit)="sendEmail($event, contactForm.valid, contactForm)" #contactForm="ngForm">
+                <input type="text" name="from_name" id="from_name" class="form-control" placeholder="Your Name*" [(ngModel)]="contact.name"
                 required minlength="3" #nameInput="ngModel"/>
-                <span *ngIf="nameInput.invalid && nameInput.touched">
+                <span *ngIf="nameInput.invalid && (nameInput.dirty || nameInput.touched)">
                     <p style="color: red !important"> Name is required and should contain minimum 3 characters.</p>
                 </span>
                 <input type="email" name="reply_to" class="form-control" placeholder="Your E-mail*" [(ngModel)]="contact.email"
                 required email #emailInput="ngModel"/>
-                <span *ngIf="emailInput.invalid && emailInput.touched">
+                <span *ngIf="emailInput.invalid && (emailInput.dirty || emailInput.touched)">
                     <p style="color: red !important">Email is required and should be valid.</p>
                 </span>
-                <textarea name="message_html" class="form-control" placeholder="Your Message*" style="height:120px"  [(ngModel)]="contact.message"
+                <textarea name="message_html" id="message_html" class="form-control" placeholder="Your Message*" style="height:120px"  [(ngModel)]="contact.message"
                 required #messageInput="ngModel"></textarea>
-                <span *ngIf="messageInput.invalid && messageInput.touched">
+                <span *ngIf="messageInput.invalid && (messageInput.dirty || messageInput.touched)">
                     <p style="color: red !important">Message is required.</p>
                 </span>
-                <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                <button id="submit" type="submit" name="submit" form="contact-form" class="btn btn-glance">Send</button>
                 <div fxLayoutAlign="center center" *ngIf="show">
                     <app-atom-spinner [animationDuration]="1000" [size]="60" [color]="'#425BB5'"></app-atom-spinner>
                 </div>
