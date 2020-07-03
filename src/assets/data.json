@@ -17,13 +17,18 @@
      "experienceList":[{"duration":"April 2020 - Present",
       "company":"Dassault Systèmes",
       "place":"Pune, India",
-      "subDurationList":[]
+      "subDurationList":[{"subDuration":"April 2020-Present : (Product Features Upgradation)",
+        "tagLine":"Currently working for product enhancement to add new features in core products of the company.",
+        "bulletPoints":["Working on the GUI development using core Javascript features including event handlers, promises, ES6 standards.",
+                        "Using core frameworks of the organization, developing a module for sourcing domain for the business upgradation & ease of clients of the company.",
+                        "Apart from programming tech stack I'm gaining hands-on experience working with Git, Jira, npm."]}
+       ]
            },
            {"duration":"July 2017 - March 2020",
                        "company":"Newgen software Technologies Ltd",
                        "place":"Noida, India",
-                       "subDurationList":[{"subDuration":"July 2019-Present : (Web Application Development)",
-                                           "tagLine":"Currently working on the development of web portal to digitize business loan applications of a US based bank. This portal is inspired by the previous similar project that I worked on which attracted this current potential client for the company.",
+                       "subDurationList":[{"subDuration":"July 2019-March 2020 : (Web Application Development)",
+                                           "tagLine":"Worked on the development of web portal to digitize business loan applications of a US based bank. This portal is inspired by the previous similar project that I worked on which attracted this current potential client for the company.",
                                            "bulletPoints":["Worked on the GUI development using MVC architecture of AngularJS to create a SPA (Single Page Application) portal.",
                                                            "Used AngularJS routing feature to navigate between various templates (views and controllers) represented by their individual states.",
                                                            "Worked with JSPs in order to integrate with the SOAP APIs provided to make connection with DB for data manipulation (saving, fetching, modifying)."]},
