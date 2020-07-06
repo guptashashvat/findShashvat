@@ -12,14 +12,14 @@
   <div fxFlex fxLayout="column" fxLayoutGap.gt-sm="0px" data-aos="zoom-in" data-aos-easing="ease" data-aos-duration="900" fxLayoutGap="12px" data-aos-delay="0">
     <br fxShow.gt-sm="false" fxShow="true">
     <div fxLayout.gt-sm="row" fxLayout="column" fxLayoutGap.gt-sm="10px" fxLayoutGap="-12px" *ngFor="let x of skillSet">
-      <div fxFlex.gt-sm="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">{{x.skill}}</h3></div>
-      <div fxFlex.gt-sm="65" fxFlex="100">
+      <div fxFlex.gt-sm="30" fxFlex.gt-md="20" fxFlex="100" fxLayoutAlign="start"><h3 style="margin-top: -3px;">{{x.skill}}</h3></div>
+      <div fxFlex.gt-sm="60" fxFlex.gt-md="65" fxFlex="100">
       <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
       <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
       <mat-progress-bar mode="determinate" value="{{x.value}}"></mat-progress-bar>
       <mat-progress-bar mode="determinate" value="{{x.value}}" fxShow.gt-sm="true" fxShow="false"></mat-progress-bar>      
     </div>
-      <div fxFlex.gt-sm="15" fxShow.gt-sm="true" fxShow="false">
+      <div fxFlex.gt-sm="10" fxFlex.gt-md="15" fxShow.gt-sm="true" fxShow="false">
         <h3 style="margin-top: -3.5px; margin-left:-30%">{{x.value}}%</h3></div>
     </div>
   </div> 
