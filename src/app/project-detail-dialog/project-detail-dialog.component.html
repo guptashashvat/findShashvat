@@ -1,20 +1,21 @@
-<div class="container"><h2 mat-dialog-title><span *ngFor="let name of projectData.name">{{name}}<br></span></h2>
-<mat-dialog-content>
-    <h3><u>Abstract</u></h3>
-    <p *ngFor="let epitome of projectData.abstract.epitome">
-    {{epitome}}
-    </p>
-    <ul>
-        <li *ngFor="let bullet of projectData.abstract.bullets">{{bullet}}</li>
-    </ul>
-    <h3><u>Technologies/Tools Used</u></h3>
-    <p *ngFor="let epitome of projectData.technologies.epitome">
-        {{epitome}}
-    </p>
-    <ul>
-        <li *ngFor="let value of projectData.technologies.list">{{value}}</li>
-    </ul>
-</mat-dialog-content>
+<div class="container">
+    <h2 mat-dialog-title>
+        <span *ngFor="let name of projectData.name">{{name}}<br></span>
+    </h2>
+    <mat-dialog-content>
+        <div *ngFor="let paragraph of projectData.paragraphs">
+            <h3><u>{{paragraph.heading}}</u></h3>
+            <p *ngFor="let epitome of paragraph.epitome">
+                {{epitome}}
+            </p>
+            <ul>
+                <li *ngFor="let bullet of paragraph.bullets">{{bullet}}</li>
+            </ul>
+        </div>
+        <div *ngFor="let image of projectData.imageUrls">
+            <img src={{image}} alt="image" class="img-responsive"/>
+        </div>
+    </mat-dialog-content>
 </div>
 <mat-dialog-actions align="end">
     <button mat-button mat-dialog-close cdkFocusInitial>Close</button>

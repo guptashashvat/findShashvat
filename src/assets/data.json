@@ -1,76 +1,223 @@
-[{
-  "homePage":
-    {"skillSet":[
-      {"skill":"JAVA", "value": 80},
-      {"skill":"JavaScript", "value": 85},
-      {"skill":"Node.js", "value": 50},
-      {"skill":"AngularJS", "value": 75},
-      {"skill":"Angular", "value": 40},
-      {"skill":"Spring Boot", "value": 70},
-      {"skill":"SQL", "value": 50},
-      {"skill":"RESTful APIs", "value": 85},
-      {"skill":"HTML", "value": 80},
-      {"skill":"CSS", "value": 70},
-      {"skill":"JSPs & Servlets", "value": 45}]},
-  "experiencePage":
-    {"epitome":"My professional work experience includes front-end development (AngularJS, Angular), back-end development (Java 8- Servlets, JSPs) and Database (Microsoft SQL Server). In various capacities in software development for BPM (Business process management) for the clients of Newgen Softwares Tech. Ltd., working with different projects, I have acquired skills in numerous phases of software development process including responsive UIs, consuming SOAP APIs, designing REST API, client side and server side coding as well as Database queries.",
-     "experienceList":[{"duration":"April 2020 - Present",
-      "company":"Dassault Systèmes",
-      "place":"Pune, India",
-      "subDurationList":[{"subDuration":"April 2020-Present : (Product Features Upgradation)",
-        "tagLine":"Currently working for product enhancement to add new features in core products of the company.",
-        "bulletPoints":["Working on the GUI development using core Javascript features including event handlers, promises, ES6 standards.",
-                        "Using core frameworks of the organization, developing a module for sourcing domain for the business upgradation & ease of clients of the company.",
-                        "Apart from programming tech stack I'm gaining hands-on experience working with Git, Jira, npm."]}
-       ]
-           },
-           {"duration":"July 2017 - March 2020",
-                       "company":"Newgen software Technologies Ltd",
-                       "place":"Noida, India",
-                       "subDurationList":[{"subDuration":"July 2019-March 2020 : (Web Application Development)",
-                                           "tagLine":"Worked on the development of web portal to digitize business loan applications of a US based bank. This portal is inspired by the previous similar project that I worked on which attracted this current potential client for the company.",
-                                           "bulletPoints":["Worked on the GUI development using MVC architecture of AngularJS to create a SPA (Single Page Application) portal.",
-                                                           "Used AngularJS routing feature to navigate between various templates (views and controllers) represented by their individual states.",
-                                                           "Worked with JSPs in order to integrate with the SOAP APIs provided to make connection with DB for data manipulation (saving, fetching, modifying)."]},
-                                          {"subDuration":"May 2019-July 2019 : (Multithreaded programming for developing Utility)",
-                                           "tagLine":"Created a Utility in JAVA for Transaction settlement processes.",
-                                           "bulletPoints":["Using JAVA's multi-threading property, created multiple parallel threads to concurrently monitor and process settlement of transactions initiated by the Payment Gateway WebService.",
-                                                           "The task of threads is to settle approved transactions and then to process balance transfer for settled transactions."]},
-                                          {"subDuration":"January 2019-May 2019 : (RESTful WebService Development)",
-                                           "tagLine":"Developed a common Payment Gateway WebService to integrate with the Enterprise Payment Solutions provided by JHA which could be used internally with different projects of Newgen.",
-                                           "bulletPoints":["Developed GUI and RESTful WebService using Jersey 2.x and Maven build tool.",
-                                                           "Consumed SOAP web services provided for transaction processing by JHA to ensure secure payment through credit/debit card.",
-                                                           "Using SQL Server created DB Scripts, Procedures and Functions to securely keep track of each transaction's data."]},
-                                          {"subDuration":"October 2017-January 2019 : (Web Application Development)",
-                                           "tagLine":"Developed a Loan Application Portal for the end customers of US based bank.",
-                                           "bulletPoints":["Worked on GUI development using MVC architecture of AngularJS.",
-                                                           "Developed a responsive SPA(Single Page Application) web portal using AngularJS material and AngularJS framework's features along with jQuery and custom CSS styling to tackle the issue of cross-browser compatibility.",
-                                                           "Used Java Socket Programming for connection between different servers and integration with different APIs/Web Services.",
-                                                           "Worked with SQL Server to create DB Scripts, Procedures, Triggers and Functions for securely storing, manipulating and handling sensitive data of Bank.",
-                                                           "Worked with Java Servlets to handle http requests, collect and consume input from users through web forms of portal, present records from database, and for various other server side functionalities.",
-                                                           "Used SVN for versioning and revision control of source code and other files.",
-                                                           "Took hands-on experience in working with the Eclipse IDE for Java EE web application.",
-                                                           "Developed a consolidated logical dashboard that can display a list of loan applications to the banker and each application is a link to the portal containing corresponding customer's information."]},
-                                          {"subDuration":"July 2017-October 2017 : (Web Application Development)",
-                                           "tagLine":"Contributed in developing both client-side and server-side web application portal for mobile/desktop, which provided a channel for the prospective customers of the Bank to apply for loans.",
-                                           "bulletPoints":[]}]
-                            }]},
-  "projectPage":
-    {"heading":"My Projects",
-      "projectList":[{"projectCode":"UB",
-                      "imagePath":"./assets/images/projects/Credit-Monitoring-in-Banks.jpg",
-                      "projectName":"Bank Portal to digitize Business Loan Application",
-                      "category":"Business Process Management"}]},
-  "projectDialog":
-    {"UB":{"name":["Customer Loan Application", "Portal & Loan Monitoring"],
-                         "abstract":{"epitome":["This Business Loan Portal is for a US centric bank to digitiz the business loan application process and seamlessly pass the same to the business loan origination system for streamlined processing.",
-                                                "The key objective is to automate Business Loan Origination, Processing, and capture leads via the Business Loan Portal while accommodating all of Bank’s product offerings listed and agreed in  scope of work. The solution enables faster application time. This will allow the Bank to capture more business loan leads and increase market-share from competitors’ business. Some key features of the solution are:"],
-                                     "bullets":["User-friendly business loan online application to optimize lead capture.",
-                                                "Improved efficiency in data capture and reduction in turnaround-time (TAT). For instance, the system will capture details from all borrowers and provide contact details to Bank for follow up.",
-                                                "A secure system that protects the confidentiality, availability and integrity of business member information throughout the process, while stored and in transit.",
-                                                "Easy to use graphical user interface (GUI) and dynamic application fields based on business loan product"]},
-                          "technologies":{"epitome":["The portal is a Single Page Application(SPA) based on MVC(Model View Controller) architecture.",
-                                                     "The list of Technologies/tools/methodologies used is:"],
-                                          "list":["AngularJS", "jQuery", "JAVA", "Servlets", "Java Socket Programming", "Multi-threading", "API integrations",
-                                                  "SQL Server (DB procedures, scripts, functions, triggers)", "SVN", "JBoss", "Eclipse IDE", "Sonar Lint"]}}}
-  }]
+[
+  {
+    "homePage": {
+      "skillSet": [
+        {
+          "skill": "JAVA",
+          "value": 80
+        },
+        {
+          "skill": "JavaScript",
+          "value": 85
+        },
+        {
+          "skill": "Node.js",
+          "value": 50
+        },
+        {
+          "skill": "AngularJS",
+          "value": 75
+        },
+        {
+          "skill": "Angular",
+          "value": 40
+        },
+        {
+          "skill": "Spring Boot",
+          "value": 70
+        },
+        {
+          "skill": "SQL",
+          "value": 50
+        },
+        {
+          "skill": "RESTful APIs",
+          "value": 85
+        },
+        {
+          "skill": "HTML",
+          "value": 80
+        },
+        {
+          "skill": "CSS",
+          "value": 70
+        },
+        {
+          "skill": "JSPs & Servlets",
+          "value": 45
+        }
+      ]
+    },
+    "experiencePage": {
+      "epitome": "My professional work experience includes front-end development (AngularJS, Angular), back-end development (Java 8- Servlets, JSPs) and Database (Microsoft SQL Server). In various capacities in software development for BPM (Business process management) for the clients of Newgen Softwares Tech. Ltd., working with different projects, I have acquired skills in numerous phases of software development process including responsive UIs, consuming SOAP APIs, designing REST API, client side and server side coding as well as Database queries.",
+      "experienceList": [
+        {
+          "duration": "April 2020 - Present",
+          "company": "Dassault Systèmes",
+          "place": "Pune, India",
+          "subDurationList": [
+            {
+              "subDuration": "April 2020-Present : (Product Features Upgradation)",
+              "tagLine": "Currently working for product enhancement to add new features in core products of the company.",
+              "bulletPoints": [
+                "Working on the GUI development using core Javascript features including event handlers, promises, ES6 standards.",
+                "Using core frameworks of the organization, developing a module for sourcing domain for the business upgradation & ease of clients of the company.",
+                "Apart from programming tech stack I'm gaining hands-on experience working with Git, Jira, npm."
+              ]
+            }
+          ]
+        },
+        {
+          "duration": "July 2017 - March 2020",
+          "company": "Newgen software Technologies Ltd",
+          "place": "Noida, India",
+          "subDurationList": [
+            {
+              "subDuration": "July 2019-March 2020 : (Web Application Development)",
+              "tagLine": "Worked on the development of web portal to digitize business loan applications of a US based bank. This portal is inspired by the previous similar project that I worked on which attracted this current potential client for the company.",
+              "bulletPoints": [
+                "Worked on the GUI development using MVC architecture of AngularJS to create a SPA (Single Page Application) portal.",
+                "Used AngularJS routing feature to navigate between various templates (views and controllers) represented by their individual states.",
+                "Worked with JSPs in order to integrate with the SOAP APIs provided to make connection with DB for data manipulation (saving, fetching, modifying)."
+              ]
+            },
+            {
+              "subDuration": "May 2019-July 2019 : (Multithreaded programming for developing Utility)",
+              "tagLine": "Created a Utility in JAVA for Transaction settlement processes.",
+              "bulletPoints": [
+                "Using JAVA's multi-threading property, created multiple parallel threads to concurrently monitor and process settlement of transactions initiated by the Payment Gateway WebService.",
+                "The task of threads is to settle approved transactions and then to process balance transfer for settled transactions."
+              ]
+            },
+            {
+              "subDuration": "January 2019-May 2019 : (RESTful WebService Development)",
+              "tagLine": "Developed a common Payment Gateway WebService to integrate with the Enterprise Payment Solutions provided by JHA which could be used internally with different projects of Newgen.",
+              "bulletPoints": [
+                "Developed GUI and RESTful WebService using Jersey 2.x and Maven build tool.",
+                "Consumed SOAP web services provided for transaction processing by JHA to ensure secure payment through credit/debit card.",
+                "Using SQL Server created DB Scripts, Procedures and Functions to securely keep track of each transaction's data."
+              ]
+            },
+            {
+              "subDuration": "October 2017-January 2019 : (Web Application Development)",
+              "tagLine": "Developed a Loan Application Portal for the end customers of US based bank.",
+              "bulletPoints": [
+                "Worked on GUI development using MVC architecture of AngularJS.",
+                "Developed a responsive SPA(Single Page Application) web portal using AngularJS material and AngularJS framework's features along with jQuery and custom CSS styling to tackle the issue of cross-browser compatibility.",
+                "Used Java Socket Programming for connection between different servers and integration with different APIs/Web Services.",
+                "Worked with SQL Server to create DB Scripts, Procedures, Triggers and Functions for securely storing, manipulating and handling sensitive data of Bank.",
+                "Worked with Java Servlets to handle http requests, collect and consume input from users through web forms of portal, present records from database, and for various other server side functionalities.",
+                "Used SVN for versioning and revision control of source code and other files.",
+                "Took hands-on experience in working with the Eclipse IDE for Java EE web application.",
+                "Developed a consolidated logical dashboard that can display a list of loan applications to the banker and each application is a link to the portal containing corresponding customer's information."
+              ]
+            },
+            {
+              "subDuration": "July 2017-October 2017 : (Web Application Development)",
+              "tagLine": "Contributed in developing both client-side and server-side web application portal for mobile/desktop, which provided a channel for the prospective customers of the Bank to apply for loans.",
+              "bulletPoints": []
+            }
+          ]
+        }
+      ]
+    },
+    "projectPage": {
+      "heading": "My Projects",
+      "projectList": [
+        {
+          "projectCode": "UB",
+          "imagePath": "./assets/images/projects/Credit-Monitoring-in-Banks.jpg",
+          "projectName": "Bank Portal to digitize Business Loan Application",
+          "category": "Business Process Management"
+        },
+        {
+          "projectCode": "mdP",
+          "imagePath": "./assets/images/projects/mdParser.png",
+          "projectName": "Parse markdown files to render them into html template",
+          "category": "Markdown Parser"
+        }
+      ]
+    },
+    "projectDialog": {
+      "UB": {
+        "name": [
+          "Customer Loan Application",
+          "Portal & Loan Monitoring"
+        ],
+        "paragraphs": [{
+          "heading": "Abstract",
+          "epitome": [
+            "This Business Loan Portal is for a US centric bank to digitiz the business loan application process and seamlessly pass the same to the business loan origination system for streamlined processing.",
+            "The key objective is to automate Business Loan Origination, Processing, and capture leads via the Business Loan Portal while accommodating all of Bank’s product offerings listed and agreed in  scope of work. The solution enables faster application time. This will allow the Bank to capture more business loan leads and increase market-share from competitors’ business. Some key features of the solution are:"
+          ],
+          "bullets": [
+            "User-friendly business loan online application to optimize lead capture.",
+            "Improved efficiency in data capture and reduction in turnaround-time (TAT). For instance, the system will capture details from all borrowers and provide contact details to Bank for follow up.",
+            "A secure system that protects the confidentiality, availability and integrity of business member information throughout the process, while stored and in transit.",
+            "Easy to use graphical user interface (GUI) and dynamic application fields based on business loan product"
+          ]
+        },
+        {
+          "heading": "Technologies/Tools Used",
+          "epitome": [
+            "The portal is a Single Page Application(SPA) based on MVC(Model View Controller) architecture.",
+            "The list of Technologies/tools/methodologies used is:"
+          ],
+          "bullets": [
+            "AngularJS",
+            "jQuery",
+            "JAVA",
+            "Servlets",
+            "Java Socket Programming",
+            "Multi-threading",
+            "API integrations",
+            "SQL Server (DB procedures, scripts, functions, triggers)",
+            "SVN",
+            "JBoss",
+            "Eclipse IDE",
+            "Sonar Lint"
+          ]
+        }],
+        "imageUrls":[]
+      },
+      "mdP": {
+        "name": [
+          "Markdown Parser"
+        ],
+        "paragraphs": [{
+          "heading": "Abstract",
+          "epitome": [
+            "The requirement was to parse the markdown files and render the content inside a html based template to be displayed in a browser. For instance, in github we have .md files which the github parses and renders them as readable content for end user. The task was to do something similar to that."
+          ],
+          "bullets": []
+        },
+        {
+          "heading": "Challenges",
+          "epitome": [
+            "The main challenges include:"
+          ],
+          "bullets": [
+            "To read the various markdown tokens to identify the kind of content we're parsing and then to parse it accordingly.",
+            "Then while parsing we needed to take care of when one token ends and another token starts.",
+            "What content should not be parsed as it is without any additional effects/tags, for eg. we want <h1>, <h2> etc for headings or <img> for images but for descriptive content we can simply take it as is and put it altogether inside a paragraph or div whatever we like.",
+            "It was also to be identified how we're supposed to render the parsed content in our template."
+          ]
+        },
+        {
+          "heading": "Solution/Approach",
+          "epitome": [
+            "The first step to tackle the challenges in the task was to tokenize the markdown content.",
+            "The following were the steps taken:"
+          ],
+          "bullets": [
+            "I created a markdown tokenizer- It will read the source content and return tokens based on the operator, symbol or markup its buffer reader comes across. It also contains a method to fetch the content in between the token and its terminator.",
+            "I then created a markdown parser- It will instantiate the tokenizer class with the content of markdown file and then it will loop down the content till we're receiving the tokens (no token means the end of file/content).",
+            "For every token we receive, create a json object with _type, _value as keys and their corresponding values as their values. Then push this json object into our objectstack which will be returned by the markdown parser once the complete content is read.",
+            "We then loop through our returned json array and render the content into the html template."
+          ]
+        }],
+        "imageUrls":[]
+      }
+    }
+  }
+]

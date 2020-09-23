@@ -1,11 +1,11 @@
 <div class="container">
     <h1 class="size-50" data-aos="fade-down" data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0">My <br/> 
-        Projects (this page is to be updated...)</h1>
+        Projects</h1>
     <div class="portfolio-inner clearfix">
         <!-- portfolio div -->
         <div class="portfolio-div">
             <div class="portfolio">
-                <div class="no-padding portfolio_container clearfix" fxLayout="row" fxLayoutAlign="space-between">
+                <div class="no-padding portfolio_container clearfix" fxLayout="row" fxLayoutAlign="space-evenly">
                     <div *ngFor="let proj of projectList" class="fashion logo" fxFlex="25" data-aos="zoom-in" data-aos-duration="900" data-aos-easing="ease"
                      data-aos-delay="0">
                         <a id="demo01" (click)="openProjectDialog(proj.projectCode)" class="portfolio_item">

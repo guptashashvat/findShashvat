@@ -12,7 +12,7 @@ export class ProjectDetailDialogComponent implements OnInit {
     public dialogRef: MatDialogRef<ProjectDetailDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: {projectName: string}
     ) { }
-    public projectData=jsonData[0].projectDialog[this.data.projectName];
+    public projectData = jsonData[0].projectDialog[this.data.projectName];
     
   ngOnInit() {
   }
