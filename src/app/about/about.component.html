@@ -1,17 +1,25 @@
 <div class="container" fxLayout="column">
     <h1 class="size-50" data-aos="fade-down" data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0">About me</h1>
-    <div fxFlex data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0">
-        <p>
-            <strong>In various capacities in software development for BPM (Business process management) with 
-        the Newgen Softwares Tech. Ltd., working on my current project, I have acquired skills in 
-        numerous phases of software development process including responsive UIs, consuming SOAP APIs, 
-        designing REST API, client side and server side coding as well as Database queries. Apart from 
-        technical skills I have also groomed my interpersonal skills including communication, 
-        co-operation with team and others, handling responsibilities and pressure points.
-    </strong>
-</p>
+    <br/><br/><div fxFlex data-aos="fade-up" data-aos-duration="900" data-aos-easing="ease" data-aos-delay="0">
+        <p *ngFor="let paragraph of aboutData.description">
+            <strong>{{paragraph}}</strong>
+        </p>
     </div>
-    <div fxLayout="row" fxLayoutGap="36px" fxFlex class="aboutActivities" data-aos="fade-up" data-aos-duration="900" 
+    <div *ngFor="let hobby of aboutData.hobbies">
+        <div fxLayout="row" fxLayoutGap="36px" fxFlex class="aboutActivities" data-aos="fade-up" data-aos-duration="900" 
+        data-aos-easing="ease" data-aos-delay="0">
+            <div fxFlex="78%"><h4>{{hobby.head}}</h4>
+                <p *ngFor="let paragraph of hobby.description">{{paragraph}}</p>
+            </div>
+            <div fxFlex="22%">
+                <div class="roundImgDiv">
+                    <img class="roundImg" alt="Background image" src={{hobby.image}}>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+    <!-- <div fxLayout="row" fxLayoutGap="36px" fxFlex class="aboutActivities" data-aos="fade-up" data-aos-duration="900" 
     data-aos-easing="ease" data-aos-delay="0">
     <div fxFlex="78%"><h4>Fitness & Calesthenics</h4>
         <p>
@@ -82,4 +90,4 @@ data-aos-delay="0">
             co-operation with team and others, handling responsibilities and pressure points. 
         </p>
     </div>    
-</div>
+</div> -->

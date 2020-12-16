@@ -7,8 +7,8 @@ import jsonData from '../../assets/data.json';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
-  public epitome=jsonData[0].experiencePage.epitome;
-  public experienceList=jsonData[0].experiencePage.experienceList;
+  public epitome = jsonData[0].experiencePage.epitome;
+  public experienceList = jsonData[0].experiencePage.experienceList;
   constructor() { }
 
   ngOnInit() {
