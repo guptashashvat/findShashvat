@@ -52,3 +52,6 @@ header{
 	border-bottom: 0.1px solid #F0F0F0;
 	z-index: 10;
 }
+.activeLink {
+	color: blueviolet;
+}

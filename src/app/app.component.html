@@ -2,11 +2,11 @@
   <header id="header" class="navbar-fixed-top" (scroll)="scrollHandler($event)">
         <nav>
          <ul>
-            <li><a routerLink="" skipLocationChange>Home</a></li>
-            <li><a routerLink="/experience" skipLocationChange>Experience</a></li>
-            <li><a routerLink="/projects" skipLocationChange>Projects</a></li>
-            <li><a routerLink="/contact" skipLocationChange>Contact</a></li>
-            <li><a routerLink="/about">About</a></li>
+            <li><a routerLink="/" class="activeLink" id="home" (click)="activateLink('home')" skipLocationChange>Home</a></li>
+            <li><a routerLink="/experience" id="experience" (click)="activateLink('experience')" skipLocationChange>Experience</a></li>
+            <li><a routerLink="/projects" id="projects" (click)="activateLink('projects')" skipLocationChange>Projects</a></li>
+            <li><a routerLink="/about" id="about" (click)="activateLink('about')" skipLocationChange>About</a></li>
+            <li><a routerLink="/contact" id="contact" (click)="activateLink('contact')" skipLocationChange>Contact</a></li>
         </ul>
       </nav>
     </header>

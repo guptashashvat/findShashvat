@@ -11,8 +11,8 @@
           "value": 85
         },
         {
-          "skill": "TypeScript",
-          "value": 80
+          "skill": "Typescript",
+          "value": 85
         },
         {
           "skill": "Node.js",
@@ -20,7 +20,7 @@
         },
         {
           "skill": "React",
-          "value": 60
+          "value": 50
         },
         {
           "skill": "Angular",
@@ -61,11 +61,15 @@
           "place": "Pune, India",
           "subDurationList": [
             {
-              "subDuration": "April 2020-Present : (Product Features Upgradation)",
-              "tagLine": "Currently working for product enhancement to add new features in core products of the company.",
+              "subDuration": "April 2020-Present : (Sourcing Domain Products' Design and Development)",
+              "tagLine": "Currently working for design and development of products that will ease the sourcing processes of buisnesses.",
               "bulletPoints": [
+                "Working on the development of SaaS product modules to ease the sourcing processes for Businesses and to allow them to generate & manage RFx (RFPs, RFQs or RFIs) for strategic sourcing.",
+                "Developed prototypes, intuitive UIs, well defined web services for interaction with other DS(Dassault Systèmes) or third-party cloud services.",
+                "Working according to Agile methodology practices, adhering with the deliverables for each Sprint strictly on or before time.",
+                "Focused on Test Driven Development ensuring code quality, worked with Karma, JUnit, Mockito testing frameworks.",
+                "Developed and Deployed with Continuous delivery (CD) approach which ensured building, testing, and releasing software with greater speed and frequency.",
                 "Working on the GUI development using core Javascript features including event handlers, promises, ES6 standards.",
-                "Using core frameworks of the organization, developing a module for sourcing domain for the business upgradation & ease of clients of the company.",
                 "Apart from programming tech stack I'm gaining hands-on experience working with Git, Jira, npm."
               ]
             }
@@ -129,6 +133,12 @@
       "heading": "My Projects",
       "projectList": [
         {
+          "projectCode": "RFx",
+          "imagePath": "./assets/images/projects/rfx-process-management.png",
+          "projectName": "RFx Process Management",
+          "category": "Sourcing Domain"
+        },
+        {
           "projectCode": "UB",
           "imagePath": "./assets/images/projects/Credit-Monitoring-in-Banks.jpg",
           "projectName": "Bank Portal to digitize Business Loan Application",
@@ -143,6 +153,48 @@
       ]
     },
     "projectDialog": {
+      "RFx": {
+        "name": [
+          "RFx Management Process"
+        ],
+        "paragraphs": [{
+          "heading": "Abstract",
+          "epitome": [
+            "RFx represents Request for Infromation (RFI), Proposal (RFP), or Quote (RFQ) created & Submitted by the Buyer. It is a complex process and the proposed solution aims to provide consistent and smooth end to end management of RFx processes for the product engineer, RFx admin and various stakeholders of the business.",
+            "The key objective is to provide effieciency to supply-chain, and ease the sourcing and procurement processes of businesses. The aim is to create a platform where numerous business stakeholders are present and they can communicate smoothly for business purposes and dealings. Some key features of the solution are:"
+          ],
+          "bullets": [
+            "Minimizes Cost (strategic sourcing).",
+            "Maximizes quality / interoperability / re-use.",
+            "Optimizes manufacturing & supply-chain efficiency.",
+            "Enables end-to-end RFx management process for buyer and supplier, eases the collaboration & communication between the two."
+          ]
+        },
+        {
+          "heading": "Technologies/Tools Used",
+          "epitome": [
+            "The tool is an Application on 3DEXPERIENCE platform of Dassault Systèmes.",
+            "The list of Technologies/tools/methodologies used is:"
+          ],
+          "bullets": [
+            "Javascript (ES6)",
+            "JAVA",
+            "Continuous Delivery",
+            "GIT",
+            "JIRA",
+            "LINUX",
+            "PuTTY",
+            "WinSCP",
+            "Tomcat",
+            "3DS Outscale IaaS",
+            "API integrations",
+            "Karma",
+            "Mockito",
+            "Eclipse IDE"
+          ]
+        }],
+        "imageUrls":[]
+      },
       "UB": {
         "name": [
           "Customer Loan Application",
@@ -226,25 +278,26 @@
     "about": {
       "description": ["After graduating in 2017 with a Bachelor’s Degree in Computer Science & Engineering(CSE), I spent the last 3 years working both as a front-end and back-end developer and designer and as part of a team in 2 different MNCs. I acquired project and time management skills, as well as the ability to communicate with team members and clients from around the globe while effectively meeting milestones and deadlines.",
       "I have worked on a multitude of web and software based projects for a range of clients providing Development (Java, JavaScript, HTML, CSS, jQuery, Bootstrap, Responsive Layouts), BPM & ECM Solutions and core products' enhacements of the organization I'm working with. I've got strong adaptability to new languages and technologies and have a keen interest in learning new things, due to which I'm capable of getting acquainted to new work/projects in very less time.",
-      "I'm currently working in India and located in Pune city."],
+      "I'm currently working in India and located in Pune city.",
+      "Along with my professional world, I have got amazing family and super amazing friends with whom I share my happy and sad moments. I also have got few hobbies which includes:"],
       "hobbies": [{
         "head": "Fitness & Calesthenics",
-        "description": [""],
+        "description": ["Only when our body and brain are healthy, are we capable of giving our best to the life and to work. And thus it's really necessary that we take care of our physical and mental health by some means. I like to do it with calesthenics."],
         "image": "./assets/images/calesthenics.jpg"
       },
       {
         "head": "Dance",
-        "description": [""],
+        "description": ["Life is better when you dance. Because dance is just another form of magic. When you know how to move your feet, you're making the world even more a happy place. I am always boisterous to dance and make others dance with me."],
         "image": "./assets/images/dance.jpg"
       },
       {
         "head": "Mountains & Hiking",
-        "description": [""],
+        "description": ["The world is a beautiful place. People often ask me if I'm a mountain or a beach person. There's not even a second thought before I blatantly say that I clearly am a Mountain person. I love to trek, i love to hike away from the city life. And when you're into the mountains the vibe is so good that you wish to go there again and again. No matter how many times you've been to the same place it'll never bore you coz that's how the mountains are. They're love."],
         "image": "./assets/images/hiking.jpg"
       },
       {
         "head": "Food & Cooking",
-        "description": [""],
+        "description": ["Who doesn't love eating good food? But only some loves cooking good food too. I'm one of them. The kind of chowhound I am, Cooking is another of my hobby. I love it when people smiles eating the food I cooked."],
         "image": "./assets/images/cooking.jpg"
       }]
     }

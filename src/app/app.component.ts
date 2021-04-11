@@ -14,12 +14,16 @@ export class AppComponent {
  ngOnInit(){
    AOS.init();
  }
+ activateLink(elemId) {
+  document.getElementsByClassName('activeLink')[0].classList.remove("activeLink");
+  document.getElementById(elemId).classList.add("activeLink");
+ }
   @HostListener('window:scroll', ['$event']) 
     scrollHandler(event) {
       if (window.pageYOffset > document.getElementById('menuBar').offsetTop) {
-      document.getElementById('menuBar').classList.add("sticky");
+        document.getElementById('menuBar').classList.add("sticky");
       } else {
-      document.getElementById('menuBar').classList.remove("sticky");
+        document.getElementById('menuBar').classList.remove("sticky");
       }
       
     }

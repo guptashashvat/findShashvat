@@ -11,16 +11,24 @@
           "value": 85
         },
         {
-          "skill": "Node.js",
-          "value": 50
+          "skill": "TypeScript",
+          "value": 80
         },
         {
-          "skill": "AngularJS",
-          "value": 75
+          "skill": "Node.js",
+          "value": 60
+        },
+        {
+          "skill": "React",
+          "value": 60
         },
         {
           "skill": "Angular",
           "value": 40
+        },
+        {
+          "skill": "AngularJS",
+          "value": 75
         },
         {
           "skill": "Spring Boot",
@@ -41,10 +49,6 @@
         {
           "skill": "CSS",
           "value": 70
-        },
-        {
-          "skill": "JSPs & Servlets",
-          "value": 45
         }
       ]
     },
@@ -218,6 +222,31 @@
         }],
         "imageUrls":[]
       }
+    },
+    "about": {
+      "description": ["After graduating in 2017 with a Bachelor’s Degree in Computer Science & Engineering(CSE), I spent the last 3 years working both as a front-end and back-end developer and designer and as part of a team in 2 different MNCs. I acquired project and time management skills, as well as the ability to communicate with team members and clients from around the globe while effectively meeting milestones and deadlines.",
+      "I have worked on a multitude of web and software based projects for a range of clients providing Development (Java, JavaScript, HTML, CSS, jQuery, Bootstrap, Responsive Layouts), BPM & ECM Solutions and core products' enhacements of the organization I'm working with. I've got strong adaptability to new languages and technologies and have a keen interest in learning new things, due to which I'm capable of getting acquainted to new work/projects in very less time.",
+      "I'm currently working in India and located in Pune city."],
+      "hobbies": [{
+        "head": "Fitness & Calesthenics",
+        "description": [""],
+        "image": "./assets/images/calesthenics.jpg"
+      },
+      {
+        "head": "Dance",
+        "description": [""],
+        "image": "./assets/images/dance.jpg"
+      },
+      {
+        "head": "Mountains & Hiking",
+        "description": [""],
+        "image": "./assets/images/hiking.jpg"
+      },
+      {
+        "head": "Food & Cooking",
+        "description": [""],
+        "image": "./assets/images/cooking.jpg"
+      }]
     }
   }
 ]
