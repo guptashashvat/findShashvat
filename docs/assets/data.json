@@ -15,24 +15,24 @@
           "value": 85
         },
         {
+          "skill": "Angular",
+          "value": 80
+        },
+        {
           "skill": "Node.js",
           "value": 60
         },
         {
-          "skill": "React",
-          "value": 50
-        },
-        {
-          "skill": "Angular",
-          "value": 40
-        },
-        {
           "skill": "AngularJS",
-          "value": 75
+          "value": 50
         },
         {
           "skill": "Spring Boot",
           "value": 70
+        },
+        {
+          "skill": "React",
+          "value": 40
         },
         {
           "skill": "SQL",
@@ -48,7 +48,7 @@
         },
         {
           "skill": "CSS",
-          "value": 70
+          "value": 80
         }
       ]
     },
@@ -56,7 +56,13 @@
       "epitome": "My professional work experience includes front-end development (AngularJS, Angular), back-end development (Java 8- Servlets, JSPs) and Database (Microsoft SQL Server). In various capacities in software development for BPM (Business process management) for the clients of Newgen Softwares Tech. Ltd., working with different projects, I have acquired skills in numerous phases of software development process including responsive UIs, consuming SOAP APIs, designing REST API, client side and server side coding as well as Database queries.",
       "experienceList": [
         {
-          "duration": "April 2020 - Present",
+          "duration": "December 2021 - Present",
+          "company": "Globant India Pvt. Ltd.",
+          "place": "Pune, India",
+          "subDurationList": [
+          ]
+        },{
+          "duration": "April 2020 - December 2021",
           "company": "Dassault Systèmes",
           "place": "Pune, India",
           "subDurationList": [
@@ -278,7 +284,7 @@
     "about": {
       "description": ["After graduating in 2017 with a Bachelor’s Degree in Computer Science & Engineering (CSE), I spent last 3+ years working as a FULL STACK DEVELOPER, being a part of multiple teams in 2 different MNCs. I have acquired project and time management skills, as well as the ability to communicate with team members and clients from around the globe while effectively meeting milestones and deadlines.",
       "I have worked on a multitude of web and software based projects for a range of clients providing Development (Java, JavaScript (ES6), Angular, React, Node.js, HTML, CSS, jQuery, Bootstrap, Responsive Layouts, APIs), BPM & ECM Solutions, Sourcing Solutions and features enhacements in the core products of the organization I'm working with. I've got strong adaptability to new languages and technologies and have a keen interest in learning new things, due to which I'm capable of getting acquainted to new work/projects in very less time.",
-      "I'm currently working in India and located in Pusne city.",
+      "I'm currently working in India and located in Pune city.",
       "Along with my professional world, I have got amazing family and super amazing friends with whom I share my happy and sad moments. I also have got few hobbies which includes:"],
       "hobbies": [{
         "head": "Fitness & Calesthenics",
